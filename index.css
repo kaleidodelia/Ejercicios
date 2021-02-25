@@ -1,0 +1,42 @@
+body{
+    background-image: url(public/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#contenedor{
+    background-color: rgba(0, 0, 0, 0.24);
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#calculadora, #tiempo, #zombi, #cambio{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#calculadora:hover{
+    background-color: rgba(255, 235, 205, 0.445);
+    border-radius: 3px;
+}
+
+#tiempo:hover{
+    background-color: rgba(255, 235, 205, 0.445);
+    border-radius: 3px;
+}
+
+#zombi:hover{
+    background-color: rgba(255, 235, 205, 0.445);
+    border-radius: 3px;
+}
+
+#cambio:hover{
+    background-color: rgba(255, 235, 205, 0.445);
+    border-radius: 3px;
+}

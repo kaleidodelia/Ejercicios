@@ -1,0 +1,117 @@
+#titulo{
+text-align: center;
+background-color: rgba(160, 46, 69, 0.486);
+color: rgb(255, 255, 255);
+border-radius: 4px;
+margin: 10px;
+font-weight: bold;
+padding: 50px;
+
+}
+
+#icono{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    padding: 3px;
+    bottom: 0px;
+ 
+}
+body{
+    background-image: url(fondo.jpg);
+    font-family: 'Abel', sans-serif;
+    
+}
+
+
+#contenedor{
+    background-color: rgba(95, 165, 160, 0.678);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#entrada{
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 25px;
+}
+
+#euros{
+    font-weight: bold;
+    background-color: rgb(231, 160, 67);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#pesetas{
+    font-weight: bold;
+    background-color: rgb(60, 212, 218);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+#conversor{
+    font-size: 23px;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+padding-bottom: 10px;}
+
+#cantidad{
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#boton{
+    background-color: rgb(225, 174, 230);
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+#caja{
+    margin-top: 140px;
+    background-color: rgba(165, 42, 42, 0.253);
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+#de{
+    background-color: rgb(227, 195, 230);
+    color: rgb(39, 3, 33);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1px;
+
+}
+
+#a{
+background-color: rgb(237, 209, 240);
+color: rgb(39, 3, 33);
+font-weight: bold;
+border-radius: 5px;
+padding: 1px;
+}
+
+
+#cantidad{
+    border-radius: 3px;
+}
+
+#atras{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    top: 20px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif
+}

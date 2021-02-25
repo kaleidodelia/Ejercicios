@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de divisas</title>
+    <link rel="stylesheet" href="divisas.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a id="atras" href="../index.html">Atrás</a>
+ <div id="caja">
+    <h1 id="titulo">CONVERSIÓN <br> DÓLAR / EURO / PESETA</h1>
+
+    <div id="contenedor">
+        <div id="entrada">CANTIDAD:
+            <div >            
+            <input  type="number" id="cantidad" min="0" value="">
+            </div>
+        
+        <div id="conversor"><button id="boton" type="submit">Convertir</button>
+            de
+            <select id="de" > 
+                <option value="0">Euro €</option>
+                <option value="1"> Peseta </option>
+                <option value="2"> Dólar $ </option>
+            </select> 
+                
+            a
+            <select id="a" > 
+                <option value="0">Euro €</option>
+                <option value="1"> Peseta </option>
+                <option value="2"> Dólar $ </option>
+            </select> 
+        </div>
+
+    
+        <div>
+            
+            <h1 id="resultado">00.00</h1>
+        </div>
+    </div>
+ </div>
+
+    <script src="divisas.js"></script>
+</body>
+</html>

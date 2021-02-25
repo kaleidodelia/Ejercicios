@@ -1,0 +1,33 @@
+body{
+    background-image: url(fondo.jpg);
+    background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#zombie{
+    position: absolute;
+    margin: 0 auto;
+    height: 149px;
+    bottom: 1px
+}
+
+#personaje{
+    position: absolute;
+    margin: 0 auto;
+    height: 149px;
+    bottom: 1px
+}
+
+
+#atras{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    top: 20px;
+    position: relative;
+}
